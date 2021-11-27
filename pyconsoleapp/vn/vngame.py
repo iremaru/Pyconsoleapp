@@ -1,7 +1,10 @@
 import framework.vngame_framework as vn
+from pyconsoleapp.vn.framework.vngame_framework import init_game
+
+scenes = ['scene1', 'scene2', 'scene3']
 
 def run():
-    vn.show_title()
-    vn.show_scenary()
-    vn.goto( vn.tell_scene(0) )
+    init_game(scenes)
 
+# TODO: Load game stats definitions
+# TODO:  

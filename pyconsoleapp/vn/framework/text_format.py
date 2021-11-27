@@ -49,6 +49,7 @@ def end_screen_line():
     __show_line(__LINE_SCREEN_END, __LINE_SCREEN_COLOR)
 
 def title(text :str):
+    """Show title in the screen"""
     text = text.upper()
     __show_text(text, __TITLE_DEFAULT_COLOR)
 
